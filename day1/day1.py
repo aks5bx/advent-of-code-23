@@ -141,7 +141,7 @@ def get_real_sum(input_file):
 
 def main():
     start_time = time.time()
-    input_file = 'puzzle_input.txt'
+    input_file = 'day1/puzzle_input.txt'
     sum = get_real_sum(input_file)
     end_time = time.time()
 

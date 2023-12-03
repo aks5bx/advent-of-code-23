@@ -15,3 +15,7 @@ You can check out the Advent of Code platform [here](https://adventofcode.com/20
 ## Technical Notes 
 
 I report the time it took to run my code. For context, I am using an Apple Macbook Pro (2021) with the M1 Chip and 16 GB RAM. 
+
+- Day 1:  0.048 seconds
+- Day 2:  0.001 seconds
+- Day 3:  0.153 seconds

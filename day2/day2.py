@@ -1,4 +1,4 @@
-
+import time
 
 
 def read_games():
@@ -81,8 +81,12 @@ def analyze_games(power=False):
 
 
 def main():
+    start = time.time()
     game_sum = analyze_games(True)
+    end = time.time()
+    
     print(f"Puzzle output: {game_sum}")
+    print(f"Time taken: {round(end-start, 3)} seconds")
 
 
 if __name__ == "__main__":
